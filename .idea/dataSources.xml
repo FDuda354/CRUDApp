@@ -8,5 +8,12 @@
       <jdbc-url>jdbc:mysql://localhost:3306/hospital</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="dudios_hospital@mysql-dudios.alwaysdata.net" uuid="1197f34e-d317-4c71-bad7-b5128416c86a">
+      <driver-ref>mariadb</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.mariadb.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mariadb://mysql-dudios.alwaysdata.net:3306/dudios_hospital</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
